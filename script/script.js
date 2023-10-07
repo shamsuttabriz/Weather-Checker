@@ -21,25 +21,25 @@ async function checkWeather(city) {
         document.querySelector('.wind').innerHTML = data.wind.speed + " km/h";
 
         if (data.weather[0].main == 'Clear') {
-            weatherIcon.src = '../img/images/clear.png';
+            weatherIcon.src = '../img/clear.png';
         }
         else if (data.weather[0].main == 'Clouds') {
-            weatherIcon.src = '../img/images/clouds.png';
+            weatherIcon.src = '../img/clouds.png';
         }
         else if (data.weather[0].main == 'Drizzle') {
-            weatherIcon.src = '../img/images/drizzle.png';
+            weatherIcon.src = '../img/drizzle.png';
         }
         else if (data.weather[0].main == 'Mist') {
-            weatherIcon.src = '../img/images/mist.png';
+            weatherIcon.src = '../img/mist.png';
         }
         else if (data.weather[0].main == 'Rain') {
-            weatherIcon.src = '../img/images/rain.png';
+            weatherIcon.src = '../img/rain.png';
         }
         else if (data.weather[0].main == 'Snow') {
-            weatherIcon.src = '../img/images/snow.png';
+            weatherIcon.src = '../img/snow.png';
         }
         else if (data.weather[0].main == 'Haze') {
-            weatherIcon.src = '../img/images/drizzle.png';
+            weatherIcon.src = '../img/drizzle.png';
         }
 
         document.querySelector('.weather').style.display = 'block';
